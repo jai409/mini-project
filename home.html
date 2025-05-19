@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Travel Finder - Home</title>
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <!-- External CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header and Navigation -->
+  <header>
+    <nav class="navbar">
+      <ul>
+        <li><a href="home.html" class="active">Home</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section with Parallax Background -->
+  <section class="hero" style="background-image: url('https://i.pinimg.com/736x/d5/49/e9/d549e948c80299b061b400914e1fbee1.jpg');">
+    <div class="overlay">
+      <h1>Explore the World</h1>
+      <p>Discover amazing destinations and plan your perfect trip.</p>
+      <a href="#destinations-preview" class="button">Browse Destinations</a>
+    </div>
+  </section>
+
+  <!-- Featured Destinations Preview -->
+  <section id="destinations-preview" class="container">
+    <h2>Featured Destinations</h2>
+    <div class="feature-grid">
+      <!-- Card 1 -->
+      <div class="feature-card">
+        <img src="https://i.pinimg.com/736x/40/ff/0e/40ff0e1e0e006234725c99f0acae9235.jpg" alt="Paris, France">
+        <div class="feature-content">
+          <h3>Paris, France</h3>
+          <p>The city of lights and love, famous for its art, culture, and cuisine.</p>
+          <a href="destinations.html" class="button">Learn More</a>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="feature-card">
+        <img src="https://i.pinimg.com/736x/4b/11/fc/4b11fc448a3610213b512204e8be8927.jpg" alt="New York, USA">
+        <div class="feature-content">
+          <h3>New York, USA</h3>
+          <p>The city that never sleeps, with iconic landmarks and a vibrant culture.</p>
+          <a href="destinations.html" class="button">Learn More</a>
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="feature-card">
+        <img src="https://i.pinimg.com/736x/99/a5/f2/99a5f20fdee57e12010f055840eda500.jpg" alt="Tokyo, Japan">
+        <div class="feature-content">
+          <h3>Tokyo, Japan</h3>
+          <p>A blend of traditional and futuristic, known for its food, technology, and temples.</p>
+          <a href="destinations.html" class="button">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Map and Weather Section -->
+  <section id="map-weather" class="container">
+    <!-- Embedded Google Map -->
+    <div class="map-container">
+      <h2>Our Location</h2>
+      <!-- Google Map iframe (Burtnieku Street 36a, Latvia) -->
+      <iframe 
+        src="https://maps.google.com/maps?q=Burtnieku%20Street%2036a&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+        allowfullscreen 
+        loading="lazy"></iframe>
+    </div>
+    <!-- Weather Card (Dummy Content) -->
+    <div class="weather-card">
+      <h2>Current Weather</h2>
+      <!-- Sample Weather Icon -->
+      <img src="https://openweathermap.org/img/wn/01d@2x.png" alt="Sunny">
+      <h3>Riga, Latvia</h3>
+      <p>Sunny</p>
+      <p>Temperature: 18°C</p>
+    </div>
+  </section>
+
+  <!-- Parallax Section for Promotion or Call-to-Action -->
+  <section class="parallax" style="background-image: url('https://i.pinimg.com/736x/4d/f0/ec/4df0ec36fac69478b9b052cb59c76458.jpg');">
+    <div class="overlay">
+      <h1>Find Your Next Adventure</h1>
+      <p>Whether it's a beach getaway or a mountain trek, we've got you covered.</p>
+      <a href="destinations.html" class="button">Explore Now</a>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="reviews" class="container">
+    <h2>Traveler Reviews</h2>
+    <div class="testimonials">
+      <!-- Testimonial 1 -->
+      <div class="testimonial-card">
+        <img src="https://i.pinimg.com/736x/e0/69/ab/e069ab1924ca69a71f927998e1410fb8.jpg" alt="Traveler Photo">
+        <p>"Travel Finder helped me plan an unforgettable trip to Thailand. Highly recommend!"</p>
+        <h4>- Alex Smith</h4>
+      </div>
+      <!-- Testimonial 2 -->
+      <div class="testimonial-card">
+        <img src="https://i.pinimg.com/736x/3f/a2/cf/3fa2cfb61f2b588fa8a2ad8b472a0ece.jpg" alt="Traveler Photo">
+        <p>"The customer service was excellent and the destinations were amazing. I will book again!"</p>
+        <h4>- Maria Garcia</h4>
+      </div>
+      <!-- Testimonial 3 -->
+      <div class="testimonial-card">
+        <img src="https://i.pinimg.com/736x/be/7e/37/be7e37ba19dd83429b832ea0d45f4962.jpg" alt="Traveler Photo">
+        <p>"I found the perfect adventure trip for my family. Thank you, Travel Finder!"</p>
+        <h4>- John Doe</h4>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Travel Finder. All rights jaijalgeorge.</p>
+  </footer>
+
+</body>
+</html>
